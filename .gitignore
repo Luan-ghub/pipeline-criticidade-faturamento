@@ -1,0 +1,15 @@
+# Ambiente local
+.venv/
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Arquivos gerados na execução
+data/*.json
+data/*.db
+logs/*.log
+outputs/*.csv
+
