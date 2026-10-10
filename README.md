@@ -26,6 +26,16 @@ Em relação ao mês anterior, o volume de faturas permaneceu praticamente está
 
 ![Painel interativo desenvolvido em Streamlit](images/dashboard_streamlit.png)
 
+## Recomendações
+
+As sugestões abaixo se referem exclusivamente ao exemplo da Neoenergia Coelba e ao recorte mais recente analisado, de julho de 2026, apresentado na visualização. Os alertas orientam uma investigação, mas não confirmam, isoladamente, falhas operacionais ou problemas de faturamento. Portanto, as recomendações representam possíveis ações baseadas no conhecimento do negócio e dependem de validação operacional.
+
+1. **Priorizar a investigação dos municípios sinalizados:** começar pelos quatro municípios críticos e detalhar os 23 municípios priorizados por indicador, volume de faturas e variação em relação ao histórico. Os registros devem ser cruzados com ocorrências de leitura, ajustes de faturamento, rotas e equipes responsáveis para localizar as causas do aumento de 0,50 ponto percentual no refaturamento e de 0,26 ponto percentual nas faturas sem leitura.
+
+2. **Executar um plano de recuperação das leituras:** nos municípios que concentram faturas sem leitura, replanejar rotas, realocar equipes e recuperar as leituras pendentes antes do próximo ciclo de faturamento. Em áreas com recorrência do problema, avaliar agendamento com o cliente, canais alternativos de autoleitura ou ampliação da medição remota.
+
+3. **Implantar validações preventivas antes da emissão das faturas:** revisar as principais causas de refaturamento e criar bloqueios para contas com consumo atípico, ausência de leitura ou divergências cadastrais e tarifárias. Esses casos devem passar por conferência antes da emissão, reduzindo correções posteriores e o retrabalho operacional.
+
 ## Estrutura
 
 ```text
